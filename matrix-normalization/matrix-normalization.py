@@ -10,11 +10,10 @@ def matrix_normalization(matrix, axis=None, norm_type='l2'):
 
     # 检查 axis 是否有效
     if axis is not None:
-        if not isinstance(axis, int):
-            return None
-        # 允许负索引，但必须落在 [-ndim, ndim-1]
-        if axis < -matrix.ndim or axis >= matrix.ndim:
-            return None
+      if not isinstance(axis, int):
+          return None
+      if axis < -matrix.ndim or axis >= matrix.ndim:
+          return None
 
     if norm_type == "l1":
         norms = np.sum(np.abs(matrix), axis=axis, keepdims=True)
