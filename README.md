@@ -100,6 +100,7 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 | K-Fold Split (Indices Only) | Generate deterministic K-fold train and validation index splits that use every sample exactly once for validation. | https://www.tensortonic.com/problems/kfold-split |
 | Implement KL Divergence | Compute Kullback-Leibler divergence between discrete probability distributions with safe zero-probability handling. | https://www.tensortonic.com/problems/kl-divergence |
 | Label Smoothing Loss | Compute multiclass cross-entropy with label smoothing by distributing target mass across all classes. | https://www.tensortonic.com/problems/label-smoothing-loss |
+| Lag Features | Generate lagged time-series features for specified offsets with defined padding for unavailable history. | https://www.tensortonic.com/problems/lag-features |
 | L-BFGS Two-Loop Recursion | Implement the L-BFGS two-loop recursion to transform a gradient using stored correction-vector history. | https://www.tensortonic.com/problems/lbfgs-two-loop |
 | Implement Leaky ReLU (with α) | Apply Leaky ReLU element-wise with a configurable negative slope while retaining positive inputs. | https://www.tensortonic.com/problems/leaky-relu |
 | Linear Interpolation | Interpolate values between known one-dimensional points while handling exact coordinates and valid boundaries. | https://www.tensortonic.com/problems/linear-interpolation |
