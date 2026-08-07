@@ -7,3 +7,4 @@ def seasonal_average(series, period):
         values = [series[i] for i in range(p, len(series), period)]
         result.append(sum(values) / len(values))
     return result
+
