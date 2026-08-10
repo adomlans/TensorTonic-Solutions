@@ -225,6 +225,7 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 | KDA Recurrence | Implement Kimi K3's KDA recurrence with gated state updates, normalized queries and keys, and ordered token readouts. | https://www.tensortonic.com/research/kimik3/k3-kda-recurrence |
 | Quantile Balancing | Implement Kimi K3 quantile balancing by ranking expert loads and computing bounded routing-bias updates. | https://www.tensortonic.com/research/kimik3/k3-quantile-balancing |
 | SiTU-GLU | Implement Kimi K3 SiTU-GLU by combining sigmoid-tanh gated activations with an elementwise linear branch. | https://www.tensortonic.com/research/kimik3/k3-situ-glu |
+| Stable LatentMoE | Build Kimi K3 Stable LatentMoE routing with latent tokens, expert selection, weighted dispatch, and output reconstruction. | https://www.tensortonic.com/research/kimik3/k3-stable-latent-moe |
 | Scaled Dot-Product Attention | Implement scaled dot-product attention in PyTorch using query-key scores, softmax weights, and value aggregation. | https://www.tensortonic.com/research/transformer/transformers-attention |
 | Embedding Layer | Create PyTorch token embeddings and scale each lookup by the square root of the Transformer model dimension. | https://www.tensortonic.com/research/transformer/transformers-embedding |
 | Encoder Block | Assemble a Transformer encoder block with multi-head attention, residual paths, layer normalization, and a feed-forward network. | https://www.tensortonic.com/research/transformer/transformers-encoder-block |
