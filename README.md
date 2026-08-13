@@ -233,6 +233,7 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 | Transition Layer | Implement a DenseNet transition layer with batch normalization, ReLU, 1x1 compression, and average pooling. | https://www.tensortonic.com/research/densenet/densenet-transition |
 | GAN Discriminator | Implement a GAN discriminator that maps input samples through dense layers to real-versus-fake probabilities. | https://www.tensortonic.com/research/gan/gan-discriminator |
 | GAN Generator | Implement a GAN generator that transforms latent noise through learned dense layers into generated samples. | https://www.tensortonic.com/research/gan/gan-generator |
+| GAN Loss Functions | Compute numerically stable binary cross-entropy losses for the GAN generator and discriminator objectives. | https://www.tensortonic.com/research/gan/gan-loss |
 | Block Attention Residuals | Implement Kimi K3 block attention residuals with block-local history, learned mixing weights, and normalized outputs. | https://www.tensortonic.com/research/kimik3/k3-block-attnres |
 | Full Attention Residuals | Implement Kimi K3 full attention residuals by mixing normalized layer outputs with learned residual coefficients. | https://www.tensortonic.com/research/kimik3/k3-full-attnres |
 | Gated MLA | Build Kimi K3 Gated MLA with low-rank query and KV projections, per-head gating, RoPE inputs, and latent caching. | https://www.tensortonic.com/research/kimik3/k3-gated-mla |
