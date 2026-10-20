@@ -86,6 +86,7 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 | Fused Tiled Matmul and ReLU | Fuse tiled matrix multiplication and ReLU in Triton for strided float16 or bfloat16 CUDA inputs and preallocated outputs. | https://www.tensortonic.com/problems/cs336-l06-triton-matmul-relu |
 | Triton Row-Wise Softmax | Implement stable row-wise softmax in Triton for padded CUDA rows, partial tiles, and float32, float16, or bfloat16 data. | https://www.tensortonic.com/problems/cs336-l06-triton-row-softmax |
 | Tiled Triton Row Sum | Implement tiled row reduction in Triton for strided CUDA tensors, fixed-width tiles, and float32 output sums. | https://www.tensortonic.com/problems/cs336-l06-triton-tiled-row-sum |
+| Calculate Collective Effective Bandwidth | Calculate ring-equivalent algorithm bytes per rank and effective bandwidth for a supported collective. | https://www.tensortonic.com/problems/cs336-l07-collective-bandwidth |
 | Simulate Distributed Collectives | Simulate all-gather, sum reduce-scatter, sum all-reduce, and all-to-all over rank-ordered one-dimensional tensors. | https://www.tensortonic.com/problems/cs336-l07-simulate-collectives |
 | Cosine Similarity | Compute cosine similarity in CUDA by reducing the dot product and both vector norms into one scalar result. | https://www.tensortonic.com/problems/cuda-cosine-similarity |
 | Dot Product | Implement a multi-block CUDA dot-product reduction that combines partial sums into one scalar output. | https://www.tensortonic.com/problems/cuda-dot-product |
