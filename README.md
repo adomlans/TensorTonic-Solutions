@@ -100,6 +100,7 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 | Plan KV-Cache Capacity | Calculate model storage, per-request KV storage, maximum fitting batch size, and bandwidth-limited decode throughput. | https://www.tensortonic.com/problems/cs336-l10-kv-cache-capacity-planner |
 | Decode Attention with a KV Cache | Append one key and value position to a KV cache and compute grouped-query attention for the next token. | https://www.tensortonic.com/problems/cs336-l10-kv-cache-decode-step |
 | Perform Exact Speculative Sampling | Accept draft tokens using the exact target-to-draft probability ratio and sample the first rejection from the normalized positive residual distribution. | https://www.tensortonic.com/problems/cs336-l10-speculative-sampling |
+| Generate a Warmup-Stable-Decay Schedule | Generate a horizon-independent linear warmup, an exact stable phase, and cosine decay with declared endpoints. | https://www.tensortonic.com/problems/cs336-l11-wsd-learning-rate |
 | Cosine Similarity | Compute cosine similarity in CUDA by reducing the dot product and both vector norms into one scalar result. | https://www.tensortonic.com/problems/cuda-cosine-similarity |
 | Dot Product | Implement a multi-block CUDA dot-product reduction that combines partial sums into one scalar output. | https://www.tensortonic.com/problems/cuda-dot-product |
 | GELU | Implement exact GELU activation in CUDA with one thread per element and the device error-function intrinsic. | https://www.tensortonic.com/problems/cuda-gelu |
