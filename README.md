@@ -115,6 +115,7 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 | Canonicalize Pairwise Preference Data | Convert complete strict candidate rankings into deterministic winner-loser pairs and reject invalid prompt records. | https://www.tensortonic.com/problems/cs336-l15-canonical-preference-pairs |
 | Implement the DPO Loss | Compute direct preference optimization loss from policy and reference sequence log-probability margins. | https://www.tensortonic.com/problems/cs336-l15-direct-preference-optimization-loss |
 | Score a KL-Regularized Policy Batch | Compute a sampled KL penalty and mean regularized policy objective from current, reference, and reward log probabilities. | https://www.tensortonic.com/problems/cs336-l15-kl-regularized-policy-objective |
+| Compute a Clipped GRPO Surrogate | Compute the masked clipped GRPO surrogate and the fraction of active token ratios outside the clip interval. | https://www.tensortonic.com/problems/cs336-l16-clipped-grpo-surrogate |
 | Normalize GRPO Group Advantages | Normalize rollout rewards within each contiguous prompt group and deactivate groups with no reward variation. | https://www.tensortonic.com/problems/cs336-l16-grpo-group-advantages |
 | Cosine Similarity | Compute cosine similarity in CUDA by reducing the dot product and both vector norms into one scalar result. | https://www.tensortonic.com/problems/cuda-cosine-similarity |
 | Dot Product | Implement a multi-block CUDA dot-product reduction that combines partial sums into one scalar output. | https://www.tensortonic.com/problems/cuda-dot-product |
@@ -150,7 +151,7 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 | Generalized Advantage Estimation | Compute generalized advantage estimates backward through rewards, values, discounting, and trace decay. | https://www.tensortonic.com/problems/gae-computation |
 | Gaussian Blur Kernel | Generate a normalized 2D Gaussian blur kernel from an odd kernel size and positive standard deviation. | https://www.tensortonic.com/problems/gaussian-blur-kernel |
 | Gaussian Naive Bayes | Fit Gaussian Naive Bayes class statistics and predict labels from priors and feature likelihoods. | https://www.tensortonic.com/problems/gaussian-naive-bayes |
-| Implement GELU Activation (Gaussian Error Linear Unit) | Implement the Gaussian Error Linear Unit activation element-wise using the required GELU approximation. | https://www.tensortonic.com/problems/gelu |
+| Implement GELU Activation (Gaussian Error Linear Unit) | Implement the exact Gaussian Error Linear Unit activation element-wise with the erf function, with the formula and tests in the browser. | https://www.tensortonic.com/problems/gelu |
 | Matrix-Vector Multiplication | Implement row-major CUDA matrix-vector multiplication with one thread computing each output row. | https://www.tensortonic.com/problems/gemv |
 | Geometric Probability Mass Function & Mean | Compute the geometric distribution probability mass and mean from a valid success probability. | https://www.tensortonic.com/problems/geometric-pmf-mean |
 | Compute Gini Impurity for a Split | Compute weighted Gini impurity for a candidate decision-tree split from the class labels on both sides. | https://www.tensortonic.com/problems/gini-impurity |
@@ -259,7 +260,7 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 | RMSProp Optimizer (Single Update Step) | Implement one RMSProp update in NumPy using an exponential squared-gradient average and adaptive scaling. | https://www.tensortonic.com/problems/rmsprop-optimizer |
 | RNN Step Backward (Vanilla RNN) | Backpropagate through one vanilla RNN timestep to compute input, hidden-state, weight, and bias gradients. | https://www.tensortonic.com/problems/rnn-step-backward |
 | RNN Step Forward (Tanh Cell) | Implement one vanilla RNN timestep with affine input and recurrent transforms followed by tanh activation. | https://www.tensortonic.com/problems/rnn-step-forward |
-| Robust Scaling | Scale numeric features using their median and interquartile range with constant-spread handling. | https://www.tensortonic.com/problems/robust-scaling |
+| Robust Scaling | Scale numeric features with the median and interquartile range, robust to outliers, with constant-spread handling and tests in the browser. | https://www.tensortonic.com/problems/robust-scaling |
 | Compute ROC Curve from Scores | Construct ROC curve thresholds with corresponding true-positive and false-positive rates from binary scores. | https://www.tensortonic.com/problems/roc-curve |
 | ROI Pooling | Pool variable-size regions of interest into fixed spatial output grids using per-bin maximum values. | https://www.tensortonic.com/problems/roi-pooling |
 | Rolling Standard Deviation | Compute rolling standard deviation over complete time-series windows using the required variance convention. | https://www.tensortonic.com/problems/rolling-standard-deviation |
@@ -321,7 +322,7 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 | Compute 3D Vector Norm | Compute the Euclidean norm of a 3D vector from the square root of summed squared coordinates. | https://www.tensortonic.com/problems/vector-norm-3d |
 | Vector Subtraction | Implement bounds-checked pointwise vector subtraction in CUDA with one thread per output element. | https://www.tensortonic.com/problems/vector-subtract |
 | Warmup + Linear Decay LR Schedule | Compute a learning-rate schedule with linear warmup followed by linear decay across training steps. | https://www.tensortonic.com/problems/warmup-decay-lr |
-| Implement Wasserstein Critic Loss | Compute Wasserstein critic loss as the difference between mean fake and real critic scores. | https://www.tensortonic.com/problems/wasserstein-critic-loss |
+| Implement Wasserstein Critic Loss | Compute the WGAN critic loss as the difference between mean fake and real critic scores, with the formula and tests in the browser. | https://www.tensortonic.com/problems/wasserstein-critic-loss |
 | Weighted Moving Average | Compute a weighted moving average over complete time-series windows using normalized supplied weights. | https://www.tensortonic.com/problems/weighted-moving-average |
 | Winsorization | Winsorize numeric data by clipping values below and above the requested percentile thresholds. | https://www.tensortonic.com/problems/winsorization |
 | Word Count Dictionary | Count token occurrences in text and return a dictionary mapping each distinct word to its frequency. | https://www.tensortonic.com/problems/word-count-dict |
