@@ -118,6 +118,7 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 | Compute a Clipped GRPO Surrogate | Compute the masked clipped GRPO surrogate and the fraction of active token ratios outside the clip interval. | https://www.tensortonic.com/problems/cs336-l16-clipped-grpo-surrogate |
 | Normalize GRPO Group Advantages | Normalize rollout rewards within each contiguous prompt group and deactivate groups with no reward variation. | https://www.tensortonic.com/problems/cs336-l16-grpo-group-advantages |
 | Compare Sequence and Token Length Normalization | Compare sequence-summed and token-averaged GRPO contributions to expose response-length normalization effects. | https://www.tensortonic.com/problems/cs336-l16-grpo-length-normalization-audit |
+| Assign Multimodal RoPE Coordinates | Assign time, height, and width coordinates to text, image-grid, separator, and sampled-video segments in one packed sequence. | https://www.tensortonic.com/problems/cs336-l17-multimodal-rope-coordinates |
 | Implement the SigLIP Pairwise Loss | Compute SigLIP's independent pairwise logistic loss for normalized image and text embeddings. | https://www.tensortonic.com/problems/cs336-l17-siglip-pairwise-loss |
 | Implement Symmetric CLIP Contrastive Loss | Compute bidirectional CLIP contrastive loss for aligned image and text embeddings with a learned logit scale. | https://www.tensortonic.com/problems/cs336-l17-symmetric-clip-loss |
 | Patchify a Batch of Images | Split PyTorch image batches into a row-major grid of non-overlapping flattened Vision Transformer patches. | https://www.tensortonic.com/problems/cs336-l17-vision-transformer-patchify |
@@ -287,7 +288,7 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 | Streaming Min-Max Normalization | Update per-feature running minima and maxima, then normalize each incoming numeric batch with the new state. | https://www.tensortonic.com/problems/streaming-minmax |
 | Sum of Array | Implement a multi-block CUDA sum reduction that combines partial block sums into one scalar output. | https://www.tensortonic.com/problems/sum-of-array |
 | Swish | Implement fused Swish or SiLU activation in CUDA with one thread per element and device exponential math. | https://www.tensortonic.com/problems/swish |
-| Implement Swish Activation | Apply the Swish activation element-wise by multiplying each input by its sigmoid value. | https://www.tensortonic.com/problems/swish-activation |
+| Implement Swish Activation | Apply the Swish activation element-wise in NumPy by multiplying each input by its sigmoid, computed without overflow. | https://www.tensortonic.com/problems/swish-activation |
 | One-Sample t-Test | Compute a one-sample t-statistic in NumPy using the sample mean, Bessel-corrected deviation, and hypothesized mean. | https://www.tensortonic.com/problems/t-test-one-sample |
 | Tanh | Implement hyperbolic tangent activation in CUDA with one thread per element, device intrinsic math, and bounds checks. | https://www.tensortonic.com/problems/tanh |
 | Implement Tanh Activation | Implement the hyperbolic tangent activation element-wise with outputs bounded between minus one and one. | https://www.tensortonic.com/problems/tanh-activation |
