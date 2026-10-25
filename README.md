@@ -117,6 +117,7 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 | Score a KL-Regularized Policy Batch | Compute a sampled KL penalty and mean regularized policy objective from current, reference, and reward log probabilities. | https://www.tensortonic.com/problems/cs336-l15-kl-regularized-policy-objective |
 | Compute a Clipped GRPO Surrogate | Compute the masked clipped GRPO surrogate and the fraction of active token ratios outside the clip interval. | https://www.tensortonic.com/problems/cs336-l16-clipped-grpo-surrogate |
 | Normalize GRPO Group Advantages | Normalize rollout rewards within each contiguous prompt group and deactivate groups with no reward variation. | https://www.tensortonic.com/problems/cs336-l16-grpo-group-advantages |
+| Compare Sequence and Token Length Normalization | Compare sequence-summed and token-averaged GRPO contributions to expose response-length normalization effects. | https://www.tensortonic.com/problems/cs336-l16-grpo-length-normalization-audit |
 | Cosine Similarity | Compute cosine similarity in CUDA by reducing the dot product and both vector norms into one scalar result. | https://www.tensortonic.com/problems/cuda-cosine-similarity |
 | Dot Product | Implement a multi-block CUDA dot-product reduction that combines partial sums into one scalar output. | https://www.tensortonic.com/problems/cuda-dot-product |
 | GELU | Implement exact GELU activation in CUDA with one thread per element and the device error-function intrinsic. | https://www.tensortonic.com/problems/cuda-gelu |
