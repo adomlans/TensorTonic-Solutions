@@ -34,6 +34,7 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 | Autocorrelation | Compute normalized time-series autocorrelation across a requested range of lags, including constant-series handling. | https://www.tensortonic.com/problems/autocorrelation |
 | Estimate a Scalar Derivative | Estimate a scalar polynomial derivative with a forward finite difference using coefficients ordered by ascending power. | https://www.tensortonic.com/problems/autograd-l01-finite-difference-derivative |
 | Check a Product-Chain Gradient | Compare analytic gradients with forward-difference estimates for a two-operation scalar graph. | https://www.tensortonic.com/problems/autograd-l01-gradient-check-product-chain |
+| Apply a Gradient-Descent Step | Apply one NumPy gradient-descent update and compute the first-order predicted objective change without mutating inputs. | https://www.tensortonic.com/problems/autograd-l01-gradient-descent-step |
 | Measure Scalar Expression Partials | Estimate the three partial derivatives of a scalar expression by perturbing one input at a time. | https://www.tensortonic.com/problems/autograd-l01-scalar-expression-partials |
 | Average Pooling 2D | Apply non-overlapping 2D average pooling to rectangular feature maps while discarding incomplete edge windows. | https://www.tensortonic.com/problems/average-pooling-2d |
 | Bag-of-Words Vector | Build a NumPy bag-of-words count vector from an ordered vocabulary while ignoring out-of-vocabulary tokens. | https://www.tensortonic.com/problems/bag-of-words |
