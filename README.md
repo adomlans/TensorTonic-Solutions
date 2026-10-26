@@ -51,6 +51,7 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 | Differentiate Exponentials and Powers | Evaluate exponential and constant-power operations at one scalar input, then apply the same upstream gradient to both local derivatives. | https://www.tensortonic.com/problems/autograd-l06-exp-power-backward |
 | Accumulate Shared-Path Gradients | Accumulate Shared-Path Gradients, and return one accumulated gradient for every reachable leaf ID. | https://www.tensortonic.com/problems/autograd-l06-shared-path-gradient-accumulation |
 | Evaluate a Dense Layer | Evaluate a PyTorch layer of independent scalar neurons sharing one input vector, with optional elementwise tanh. | https://www.tensortonic.com/problems/autograd-l07-dense-layer-forward |
+| Evaluate a Multi-Layer Perceptron | Evaluate a supplied multi-layer perceptron by feeding each layer output into the next layer. | https://www.tensortonic.com/problems/autograd-l07-mlp-forward |
 | Build a Scalar Neuron Module | Evaluate a supplied scalar PyTorch neuron in linear or tanh mode while preserving the input dtype and device. | https://www.tensortonic.com/problems/autograd-l07-scalar-neuron-module |
 | Average Pooling 2D | Apply non-overlapping 2D average pooling to rectangular feature maps while discarding incomplete edge windows. | https://www.tensortonic.com/problems/average-pooling-2d |
 | Bag-of-Words Vector | Build a NumPy bag-of-words count vector from an ordered vocabulary while ignoring out-of-vocabulary tokens. | https://www.tensortonic.com/problems/bag-of-words |
