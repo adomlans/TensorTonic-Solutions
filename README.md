@@ -35,6 +35,7 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 | Compute the Policy and Value Heads | Compute AlphaGo Zero policy logits and bounded value predictions from shared PyTorch board features. | https://www.tensortonic.com/problems/alphago-l02-policy-value-heads |
 | Apply an AlphaGo Residual Block | Apply an AlphaGo Zero residual block in PyTorch with two padded convolutions, channel normalization, ReLU, and a skip connection. | https://www.tensortonic.com/problems/alphago-l02-residual-block |
 | Initialize Legal MCTS Edge Statistics | A newly expanded search node receives one edge for every action, but only legal actions receive prior mass. | https://www.tensortonic.com/problems/alphago-l03-initialize-edge-statistics |
+| Select an Action with PUCT | Select the lowest-index legal action maximizing the PUCT value and prior-weighted exploration score. | https://www.tensortonic.com/problems/alphago-l03-puct-selection |
 | Anchor Box Generation | Generate object-detection anchor boxes across a feature grid for every scale and aspect-ratio combination. | https://www.tensortonic.com/problems/anchor-box-generation |
 | Angle Between 3D Vectors | Compute the angle between two 3D vectors in NumPy with clamped cosine values and safe handling of zero norms. | https://www.tensortonic.com/problems/angle-between-3d |
 | Argmax | Implement a parallel CUDA argmax reduction that returns the lowest index when multiple elements share the maximum. | https://www.tensortonic.com/problems/argmax |
