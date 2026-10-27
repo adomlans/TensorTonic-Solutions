@@ -31,6 +31,7 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 | Apply a Go Action with Captures and Repetition | Apply an already-legal Go action, resolve captures, and update the player, pass count, move count, and terminal status. | https://www.tensortonic.com/problems/alphago-l01-resolve-move |
 | Score a Terminal Position with Tromp-Taylor Rules | Score a terminal Go board with Tromp-Taylor area rules by counting stones and empty regions controlled by each player. | https://www.tensortonic.com/problems/alphago-l01-tromp-taylor-result |
 | Encode AlphaGo Zero Board History | Encode the current board and up to seven earlier boards from the current player's perspective. | https://www.tensortonic.com/problems/alphago-l02-encode-board-history |
+| Apply an AlphaGo Residual Block | Apply an AlphaGo Zero residual block in PyTorch with two padded convolutions, channel normalization, ReLU, and a skip connection. | https://www.tensortonic.com/problems/alphago-l02-residual-block |
 | Anchor Box Generation | Generate object-detection anchor boxes across a feature grid for every scale and aspect-ratio combination. | https://www.tensortonic.com/problems/anchor-box-generation |
 | Angle Between 3D Vectors | Compute the angle between two 3D vectors in NumPy with clamped cosine values and safe handling of zero norms. | https://www.tensortonic.com/problems/angle-between-3d |
 | Argmax | Implement a parallel CUDA argmax reduction that returns the lowest index when multiple elements share the maximum. | https://www.tensortonic.com/problems/argmax |
