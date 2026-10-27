@@ -38,6 +38,7 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 | Initialize Legal MCTS Edge Statistics | A newly expanded search node receives one edge for every action, but only legal actions receive prior mass. | https://www.tensortonic.com/problems/alphago-l03-initialize-edge-statistics |
 | Select an Action with PUCT | Select the lowest-index legal action maximizing the PUCT value and prior-weighted exploration score. | https://www.tensortonic.com/problems/alphago-l03-puct-selection |
 | Mix Dirichlet Noise into Root Priors | Mix normalized Dirichlet noise into legal AlphaGo Zero root priors while keeping every illegal action at zero. | https://www.tensortonic.com/problems/alphago-l04-root-dirichlet-noise |
+| Turn Root Visits into a Search Policy | Convert legal MCTS root visits into a temperature-controlled self-play policy with deterministic tie handling. | https://www.tensortonic.com/problems/alphago-l04-visit-count-policy |
 | Anchor Box Generation | Generate object-detection anchor boxes across a feature grid for every scale and aspect-ratio combination. | https://www.tensortonic.com/problems/anchor-box-generation |
 | Angle Between 3D Vectors | Compute the angle between two 3D vectors in NumPy with clamped cosine values and safe handling of zero norms. | https://www.tensortonic.com/problems/angle-between-3d |
 | Argmax | Implement a parallel CUDA argmax reduction that returns the lowest index when multiple elements share the maximum. | https://www.tensortonic.com/problems/argmax |
